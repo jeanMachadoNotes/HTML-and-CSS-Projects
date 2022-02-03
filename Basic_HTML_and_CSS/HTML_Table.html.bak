@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Table of Phones</title>
+	</head>
+	<body>
+		<link rel="stylesheet" type="text/css" href="CSS_Tables.css"></link>
+		<h1>Table of Phones</h1>
+		<p>Here is a table of phones I have owned</p>
+		<table>
+			<tr>
+				<th>Brand</th>
+				<th>Model</th>
+				<th>Est.Year</th>
+			</tr>
+			<tr>
+				<td>Sanyo</td>
+				<td>Katana</td>
+				<td>2006</td>
+			</tr>
+			<tr>
+				<td>HTC</td>
+				<td>Evo</td>
+				<td>2009</td>
+			</tr>
+			<tr>
+				<td>HTC</td>
+				<td>Evo 4G LTE</td>
+				<td>2011</td>
+			</tr>
+			<tr>
+				<td>Apple</td>
+				<td>iPhone 5</td>
+				<td>2011</td>
+			</tr>
+			<tr>
+				<td>Apple</td>
+				<td>iPhone 5s</td>
+				<td>2013</td>
+			</tr>
+			<tr>
+				<td>Samsung</td>
+				<td>S9 Plus</td>
+				<td>2014</td>
+			</tr><tr>
+				<td>Google</td>
+				<td>Pixel 3</td>
+				<td>2016</td>
+			</tr><tr>
+				<td>Apple</td>
+				<td>iPhone 6 Max</td>
+				<td>2017</td>
+			</tr>
+			<tr>
+				<td>Google</td>
+				<td>Pixel 4 XL</td>
+				<td>2019</td>
+			</tr><tr>
+				<td>Apple</td>
+				<td>iPhone SE 2</td>
+				<td>2019</td>
+			</tr>
+			<tr>
+				<td>Apple</td>
+				<td>iPhone 12 Pro Max</td>
+				<td>2021</td>
+			<tr>
+				<td>John</td>
+				<td> Machado</td>
+				<td> 1989</td>
+			</tr>
+			
+		</table>
+	</body>
+</html>

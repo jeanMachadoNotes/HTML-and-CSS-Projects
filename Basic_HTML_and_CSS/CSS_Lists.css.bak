@@ -1,0 +1,24 @@
+ol{
+	list-style-type: upper-roman;
+	font-family: Verdana;
+	color: grey;
+}
+
+ul {
+	list-style-type: square;
+	font-family: cursive;
+	color: blue;
+}
+
+h1{
+	text-decoration: underline;
+	color: tomato;
+	text-shadow: 1px 1px 7px darkblue;
+	font-family: monaco, monospace;
+}
+
+h2{
+	text-decoration: underline;
+	color: gold;
+	text-shadow: 1px -3px 5px black;
+}

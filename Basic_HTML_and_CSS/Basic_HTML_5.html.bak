@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<link rel="stylesheet" type="text/css" href="Basic_CSS_2.css">
+		<p>With great power, comes great responsibility!</p>
+		<p>We saw that the orders, total 10 &lt 13, which is the minimum order amount needed. </p>
+		<p>The element &lt font &gt is not used in HTML 5.</p>
+		<p>He said, <b>&#34There's nothing we can do!&#34</b>, as he stormed out.</p>
+		<h2>The Guardians of the Galaxy</h2>
+	</body>
+</html>

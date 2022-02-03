@@ -1,0 +1,15 @@
+/*This makes the paragraphs white text on green backgrounds*/
+p {
+	color: ghostwhite;
+	background-color: forestgreen;
+	font-size: large;
+	text-align: center;
+	text-shadow: 2px 2px 4px black;
+}
+
+h2{
+	font-family: 'Rowdies', 'cursive';
+	font-size: 300%;
+	color: yellow;
+	text-shadow: 2px 2px red, 0px 4px 15px darkblue;
+}

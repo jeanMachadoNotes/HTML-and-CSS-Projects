@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Basic HTML & CSS 3</title>
+			<meta chartset="utf-8" name="Jean Machado">
+			<link rel="stylesheet" type="text/css" href="Basic_CSS_1.css">
+		</head>
+		<body>
+			<h1> My Favorite Movies </h1>
+			<h2>Below is a list of some of my favorite movies</h2>
+			<div>
+				<h3><font face="Calibri" size=4 >The Lord of The Rings</font></h3>
+					<p>A story about a Hobbit and friends who decide to save the world against the Dark Lord Sauron</p>
+				<h3><font face=garamond size=4>Midnight in Paris</font></h3>
+					<p>Set in Paris, A writer with writers-block whilst on vacation with his soon to be wed fiance, is able to travel back to 1920's Paris.</p>
+				<h3><font face= "arial" size=3>Some Kind of Wonderful</font></h3>
+					<p>A young highschool mechanic is looking to land a date with the most popular girl in school, with the help of his best friend, a tomboy drummer who secretly likes him.</p>
+			</div>
+		</body>
+	</html>

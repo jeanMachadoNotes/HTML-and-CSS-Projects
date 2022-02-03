@@ -1,0 +1,25 @@
+<!DOCTYPE>
+<html lang="en">
+	<head>
+		<title>Lists</title>
+	</head>
+	<body>
+		<link rel="stylesheet" type="text/css" href="CSS_Lists.css"></link>
+		<h1>Here are some lists</h1>
+		<h2>How to Clean your Room</h2>
+		<ol>
+			<li>Put dirty clothes in the hamper</li>
+			<li>Make your bed</li>
+			<li>Pick up any loose items</li>
+			<li>Vacuum the floor</li>
+			<li>Take hamper to laundry</li>
+		</ol>
+		<h2>Things you'll need:</h2>
+		<ul>
+			<li>hamper</li>
+			<li>vacuum</li>
+			<li>trash bags</li>
+		</ul>
+		
+	</body>
+</html>
