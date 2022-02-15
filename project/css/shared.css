@@ -37,7 +37,7 @@ h1 {
     /*text-transform: uppercase;*/
     text-align: center;
     color: #F2F1F0;
-    text-shadow: 5px 2px 3px rgba(0, 0, 0, 0.3);
+    text-shadow: 5px 2px 3px rgba(0, 0, 0, 0.45);
 }
 
 h1::after { /*This is an underline */
