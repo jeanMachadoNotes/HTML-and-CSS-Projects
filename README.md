@@ -3,17 +3,17 @@ This repository contains projects completed using HTML and CSS
 
 ## Projects
 
-- Jiu-Jitsu Moves Library
-- DigiNews 
-- ErgonnaWork
+- [Jiu-Jitsu Moves Library](https://github.com/jeanMachadoNotes/HTML-and-CSS-Projects/tree/main/One-Page-Website)
+- [DigiNews](https://github.com/jeanMachadoNotes/HTML-and-CSS-Projects/tree/main/bootstrap4_project)
+- [ErgonnaWork](https://github.com/jeanMachadoNotes/HTML-and-CSS-Projects/tree/main/project)
 
 ### Jiu-Jitsu Moves Library
 
-This page is an information on what is the Martial Art of Brazilian Jiu-Jitsu with examples. It was styles with CSS and contains a navbar, color themed backgrounds, drops downs, flex container, and form.
+This page is an informational on what is the Martial Art of Brazilian Jiu-Jitsu with examples. It was styled with CSS and contains a navbar, color themed backgrounds, drops downs, flex container with boxes, and a form.
 
 ### DigiNews
 
-This page was deisgned to be a Tech News site, with product reviews and articles. It was styled with Bootstrap v4. It contains a navbar, carousel banner, side menu, and cards.
+This page was designed to be like a Tech News site, with product reviews and articles. It was styled with Bootstrap v4. It contains a navbar, carousel banner, side menu, and cards. It also is optimized for small screens.
 
 ### ErgonnaWork
 
