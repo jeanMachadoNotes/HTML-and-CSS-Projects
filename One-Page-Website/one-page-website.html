@@ -3,11 +3,13 @@
 	<head>
 		<title>Jiu-Jitsu Moves | Library </title>
 		<meta chartset="utf-8">
+		<script src="./JS/one_page_website.js" defer></script>
 		<link rel="stylesheet" href="./css/one-page-website.css">
 		<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
 		<link rel="manifest" href="./favicon/site.webmanifest">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	
 	<body>
@@ -82,129 +84,137 @@
 		
 		<!-- END WHAT IS ERGO? -->
 		
-		<!-- MOVES -->
-		<section  id="moves">
-			<div>
-				<h1 class="head-title">Jiu-Jitsu Moves</h1>
-				<div class="flex-container"> <!-- ENTIRE GALLERY -->
-					
-					<!-- PHOTO-CONTAINER 1 -->
-					<div class="photo-box"> <!-- BORDER/SHADOW -->
-						<div class="photo"> <!-- IMAGE -->
-							<img src="./images/thumb2/thumbnail_1.png" alt="Guard Position" width="540" height="360">
-							<div> <!--OVERLAY ON PHOTO -->
-								<h3>Guard Position</h3>
-								
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 1 -->
-					
-					<!-- PHOTO-CONTAINER 2 -->
-					<div class="photo-box"> <!-- BORDER/SHADOW -->
-						<div class="photo"> <!-- IMAGE -->
-							<img src="./images/thumb2/thumbnail_2.png" alt="Side Control Position" width="540" height="360">
-							<div> <!--OVERLAY ON PHOTO -->
-								<h3>Side Control Position</h3>
-								
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 2 -->
-					
+		<br> <br>
+
+		<!-- MOVES LIGHTBOX -->
+
+		<div>
+			<h2 class="head-title"> Jiu-Jitsu Moves </h2>
+		</div>
+
+		<!-- Images used to open the lightbox -->
+		<div class="row">
+			<div class="column">
+				<img src="./images/Thumb2/thumbnail_1.png" onclick="openModal();currentSlide(1)" class="hover-shadow"">
+			</div>
+			<div class="column">
+				<img src="./images/Thumb2/thumbnail_2.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="./images/Thumb2/thumbnail_3.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="./images/Thumb2/thumbnail_4.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+			</div>
+			
+		</div>
+
+		<!-- Lightbox -->
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+				<div class="mySlides">
+					<div class="numbertext">1 / 9</div>
+					<img src="./images/Thumb2/thumbnail_1.png" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">2 / 9</div>
+					<img src="./images/Thumb2/thumbnail_2.png" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">3 / 9</div>
+					<img src="./images/Thumb2/thumbnail_3.png" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">4 / 9</div>
+					<img src="./images/Thumb2/thumbnail_4.png" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">5 / 9</div>
+					<img src="./images/Thumb2/thumbnail_5.png" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">6 / 9</div>
+					<img src="./images/Thumb2/thumbnail_6.png" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">7 / 9</div>
+					<img src="./images/Thumb2/thumbnail_7.png" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">8 / 9</div>
+					<img src="./images/Thumb2/thumbnail_8.png" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">9 / 9</div>
+					<img src="./images/Thumb2/thumbnail_9.png" style="width:100%">
+				</div>
 				
-					<!-- PHOTO-CONTAINER 3 -->
-					<div class="photo-box"> <!-- BORDER/SHADOW -->
-						<div class="photo"> <!-- IMAGE -->
-							<img src="./images/thumb2/thumbnail_3.png" alt="Back Control Position" width="540" height="360">
-							<div> <!--OVERLAY ON PHOTO -->
-								<h3>Back Control Position</h3>
-								
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 3 -->
-					
-					<!-- PHOTO-CONTAINER 4 -->
-					<div class="photo-box"> <!-- BORDER/SHADOW -->
-						<div class="photo"> <!-- IMAGE -->
-							<img src="./images/thumb2/thumbnail_4.png" alt="Mount Position" width="540" height="360">
-							<div> <!--OVERLAY ON PHOTO -->
-								<h3>Mount Position</h3>
-								
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 4 -->
-					
-					<!-- PHOTO-CONTAINER 5 -->
-					<div class="photo-box"> <!-- BORDER/SHADOW -->
-						<div class="photo"> <!-- IMAGE -->
-							<img src="./images/thumb2/thumbnail_5.png" alt="Spider Guard Position" width="540" height="360">
-							<div> <!--OVERLAY ON PHOTO -->
-								<h3>Spider Guard Position</h3>
-								
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 5 -->
-					
-					<!-- PHOTO-CONTAINER 6 -->
-					<div class="photo-box"> <!-- BORDER/SHADOW -->
-						<div class="photo"> <!-- IMAGE -->
-							<img src="./images/thumb2/thumbnail_6.png" alt="Kesa Gatame Position" width="540" height="360">
-							<div> <!--OVERLAY ON PHOTO -->
-								<h3>Kesa Gatame Position</h3>
-								
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 6 -->
-					
-					<!-- PHOTO-CONTAINER 7 -->
-					<div class="photo-box"> <!-- BORDER/SHADOW -->
-						<div class="photo"> <!-- IMAGE -->
-							<img src="./images/thumb2/thumbnail_7.png" alt="Butterfly Guard Position" width="540" height="360">
-							<div> <!--OVERLAY ON PHOTO -->
-								<h3>Butterfly Guard Position</h3>
-								
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 7 -->
-					
-					<!-- PHOTO-CONTAINER 8 -->
-					<div class="photo-box"> <!-- BORDER/SHADOW -->
-						<div class="photo"> <!-- IMAGE -->
-							<img src="./images/thumb2/thumbnail_8.png" alt="North South Position" width="540" height="360">
-							<div> <!--OVERLAY ON PHOTO -->
-								<h3>North South Position</h3>
-								
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 8 -->
-					
-					<!-- PHOTO-CONTAINER 9 -->
-					<div class="photo-box"> <!-- BORDER/SHADOW -->
-						<div class="photo"> <!-- IMAGE -->
-							<img src="./images/thumb2/thumbnail_9.png" alt="Turtle Position" width="540" height="360">
-							<div> <!--OVERLAY ON PHOTO -->
-								<h3>Turtle Position</h3>
-								
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 9 -->
 
 				
-					
-										
+				<!-- Next/Prev Controls -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				<!-- Caption Text -->
+				<div class="caption-container">
+					<p id="caption"></p>
 				</div>
+				
+
+				<!-- Thumbnail Image Controls -->
+
+				<div class="column">
+					<img class="demo" src="./images/Thumb2/thumbnail_1.png" onclick="currentSlide(1)" alt="Guard">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./images/Thumb2/thumbnail_2.png" onclick="currentSlide(2)" alt="Side Control">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./images/Thumb2/thumbnail_3.png" onclick="currentSlide(3)" alt="Back Control">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./images/Thumb2/thumbnail_4.png" onclick="currentSlide(4)" alt="Mount">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./images/Thumb2/thumbnail_5.png" onclick="currentSlide(5)" alt="Spider Guard">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./images/Thumb2/thumbnail_6.png" onclick="currentSlide(6)" alt="Kesa Gatame">
+				</div>
+				
+				<div class="column">
+					<img class="demo" src="./images/Thumb2/thumbnail_7.png" onclick="currentSlide(7)" alt="Butterfly Guard">
+				</div>
+				
+				<div class="column">
+					<img class="demo" src="./images/Thumb2/thumbnail_8.png" onclick="currentSlide(8)" alt="North South Position">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="./images/Thumb2/thumbnail_9.png" onclick="currentSlide(9)" alt="Turtle Position">
+				</div>
+
 			</div>
-		</section>
-		<br><br>
-		<!-- END MOVES -->
+		</div>
+
+
+
+		<!-- END MOVES LIGHTBOX -->
 		
 		<!-- GET HELP --->
 		
