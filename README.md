@@ -7,6 +7,8 @@ This repository contains projects completed using HTML and CSS
 - [DigiNews](#diginews)
 - [ErgonnaWork](#ergonnawork)
 
+(click titles below to take you to project)
+
 ### [Jiu-Jitsu Moves Library](https://github.com/jeanMachadoNotes/HTML-and-CSS-Projects/tree/main/One-Page-Website)
 
 This page is an informational on what is the Martial Art of Brazilian Jiu-Jitsu with examples. 
