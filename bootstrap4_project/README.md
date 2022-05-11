@@ -4,7 +4,7 @@ This page was designed to be like a Tech News site, with product reviews and art
 
 It contains a navbar, carousel banner, side menu, and cards. It also is optimized for small screens.
 
-Technologies used: HTML, CSS, Bootstrap
+Technologies used: HTML, CSS, Bootstrap 4
 
 ## Features
 - [Responsive Nav Bar](#Responsive-Nav-Bar)
