@@ -31,7 +31,7 @@ Technologies: HTML5, CSS3, Bootstrap 4
 
 This page is designed to inform and then recommend products to improve ones work enviroment, also known as Ergonomics. It was styled in CSS and includes navbar, seperate sections to jump to, dropdowns, linked thumbnails for products, and a form.
 
-Technologies: HTML, CSS, Flex Box
+Technologies: HTML5, CSS3, Flex Box
 
 ![page_1_2](https://user-images.githubusercontent.com/98543446/167209657-234d8f9f-270a-4090-a340-7c9a4851b5cc.png)
 
