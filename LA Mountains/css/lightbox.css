@@ -1,0 +1,186 @@
+
+.row {
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    margin: 0 auto;
+    min-height: 150px;
+    max-height: 350px;
+
+}
+
+.row-back {
+    background-color: #38445abd;
+    position: absolute;
+    width: 100%;
+    min-height: 180px;
+    max-height: 350px;
+    padding: 5%;
+    margin: 0 auto;
+    bottom: 0px;
+    left: 0;
+}
+  .row > .column {
+    padding: 0 8px;
+  }
+ 
+  .column {
+    float: left;
+    width: 25%;
+  }
+
+  .column2 {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+
+  /*/// Adjust Picture Row as screen changes size//*/
+
+  @media screen and (min-width: 1080px) {
+    .column {
+        position: relative;
+        float: left;
+        max-width: 15%;
+        left: 18%;
+        bottom: 2.0rem;
+    }
+    .row {
+        max-height: 100px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    .column {
+        position: relative;
+        float: left;
+        max-width: 15%;
+        left: 18%;
+        bottom: 6vh;
+    }
+    .row {
+        max-height: 100px;
+    }
+  }
+
+  .picture {
+    width: 100%;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /*/// Modal Background ///*/
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 3;
+  }
+
+  /*/// Modal Content ///*/
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 800px;
+    z-index: 5;
+  }
+
+  /*/// Close Button ///*/
+  .close {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .close:hover, .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /*/Hides slides by default/*/
+  .mySlides {
+    display: none;
+  }
+
+  /*/// Next/Previous Controls ///*/
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  /*/// Next Button on Right Side ///*/
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  /*/// Number Text (1/4) ///*/
+
+  .numbertext {
+    color: black;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    font-family: 'Lato', serif;
+  }
+
+  /*/// Caption Text ///*/
+  .caption-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2px 16px;
+    color: white;
+    font-family: "Lato", serif;
+  }
+
+  img.demo {
+    opacity: 0.6;
+    max-width: 80%; /*Images wont overlap*/
+  }
+
+  .active, .demo:hover {
+    opacity: 1;
+  }
+
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+
+  .row img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+  }

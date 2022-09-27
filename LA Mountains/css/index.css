@@ -1,0 +1,324 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+
+.container  {
+    height: 100vh;
+    position: relative;
+}
+
+.container3 {
+    height: 80vh;
+    position: relative;
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+
+}
+
+.content-wrap {
+    padding-bottom: 200px;
+}
+
+#Home {
+    background-image: url(/assets/img/Image.png);
+    background-color: tan;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-attachment: scroll;
+    background-size: cover;
+    
+}
+
+@media screen and (max-width: 430px) {
+    #Home {
+        background-image: url(/assets/img/Image.png);
+        background-color: tan;
+        background-repeat: no-repeat;
+        background-position: 40%;
+        background-attachment: scroll;
+        background-size: cover;
+        
+    }
+}
+
+#Section1 {
+    position: relative;
+}
+
+.background-2 {
+    background-image: url(/assets/img/peak.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: scroll;
+    position: relative;
+}
+
+.background-3_A {
+    background-image: url(/assets/img/mountain_1.jpg);
+    background-color: lightpink;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 79vh;
+    background-attachment: scroll;
+    position: relative;
+    z-index: 1;
+}
+
+.background-3_B {
+    background-image: url(/assets/img/mountain_2.jpg);
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 79vh;
+    background-attachment: scroll;
+    position: relative;
+    z-index: 1;
+}
+/*//////// Navbar ////////*/
+
+.navbar ul {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.0);
+    margin-bottom: 25px;
+}
+
+.navbar ul li a{
+    display: block;
+    float: left;
+    padding: 12px 16px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar ul li a:hover {
+    color: #414f6b;
+}
+
+.navbar ul li a.right {
+    float: right;
+}
+
+/*///// Logo /////*/
+.navbar ul li a img {
+    margin: -10px 10px;
+    max-width: 40px;
+}
+
+.navbar-space {
+    height: 46px;
+    background-color: white;
+}
+
+/*//////// Footer ////////*/
+
+.footer ul {
+    list-style-type: none;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #414f6b;
+    overflow: auto; /*Reveal background color*/
+    overflow: hidden;
+    z-index: 5;
+}
+
+.footer li a{
+    display: block;
+    float: left;
+    padding: 12px 16px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    font-style: italic;
+    color: #63769d;
+    text-decoration: none;
+}
+
+.footer ul li a.right {
+    float: right;
+    padding: 30px 10px;
+}
+
+@media screen and (max-width: 483px) {
+    
+    .footer ul li a.right {
+        float: none;
+        padding: 15px 10px;
+        font-size: 10px;
+    }
+}
+
+/*/// Logo ///*/
+
+
+.footer ul li a img {
+    margin: -5px 10px;
+    margin-right: -25px;
+    max-width: 50px;
+}
+
+.footer .footer-text {
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 80%;
+    text-align: justify;
+    font-style: normal;
+    color: #63769d;
+}
+
+/*//////// Hero Section ////////*/
+
+#Home img {
+    position: absolute;
+    top: 20%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    z-index: 600;
+}
+
+/*//////// Section 1 ////////*/
+
+.text-box {
+    position: relative;
+    top: 2%;
+    width: 70%;
+    margin: 10px auto;
+}
+
+.text-heading {
+    display: inline-block;
+}
+
+.num {
+    display: inline-block;
+    font-size: 135px;
+    font-family: 'Oswald', 'serif';
+}
+
+.text1 {
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Oswald', 'serif';
+    font-weight: 1000;
+    color: #414f6b;
+}
+
+/*//////// Section 2 ////////*/
+
+.section-header {
+    height: 200px;
+    margin-top:50px;
+    margin-bottom: 10px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.num2 {
+    float: left;
+    font-size: 115px;
+    font-family: 'Oswald', 'serif';
+    color: #688094;
+
+}
+
+.text2 {
+    float: left;
+    font-size: 32px;
+    font-family: 'Oswald', 'serif';
+    font-weight: 1000;
+    color: #414f6b;
+    margin-top: 80px;
+    margin-left: -15px;
+}
+
+.text3 {
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+@media screen and (min-width: 430px) {
+    .text3 {
+        position: relative;
+        top: 80px;
+        left: 20px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+
+    .section-header {
+        height: 200px;
+        margin-top:50px;
+        margin-bottom: 10px;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text3 {
+        position: relative;
+        top: 40px;
+        left: 20px;
+        font-size: 1rem;
+    }
+
+    .num2 {
+        float: left;
+        font-size: 90px;
+        font-family: 'Oswald', 'serif';
+        color: #688094;
+    
+    }
+        
+    .text2 {
+        float: left;
+        font-size: 16px;
+        font-family: 'Oswald', 'serif';
+        font-weight: 1000;
+        color: #414f6b;
+        margin-top: 70px;
+        margin-left: -15px;
+    }
+    
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /*/////Image Side by Side ////*/
+/*see lightbox.css*/

@@ -1,0 +1,89 @@
+/*///// Tabs Menu /////*/
+
+.tab-menu ul {
+    list-style-type: none;
+    width: 100%;
+    background-color: #414f6b;
+    overflow: hidden;
+    z-index: 2;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 10%;
+    
+}
+
+.tab-menu li {
+    display: block;
+    float: left;
+    padding: 12px 16px;
+    font-size: 20px;
+    font-family: "Oswald", serif;
+    text-decoration: underline;
+    font-style: bold;
+    color: #b0b4be;
+    
+}
+
+@media screen and (max-width: 430px) {
+    .tab-menu ul {
+        padding-left: 0;
+    }
+    .tab-menu li {
+        display: block;
+        float: none;
+        left: 0;
+        float: none;
+        padding: 12px 16px;
+        font-size: 20px;
+        font-family: "Oswald", serif;
+        text-decoration: underline;
+        font-style: bold;
+        color: #b0b4be;
+        text-align: center;
+        padding-right: 30px;
+    }
+}
+
+.tab-menu li:hover {
+    background-color: #b0b4be;
+    color: #414f6b;
+    cursor: pointer;
+}
+
+/*.active-item {
+    background-color: #b0b4be;
+    color: #414f6b; 
+} */
+
+.block {
+    display: inline-block;
+    background-color:  rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    position: absolute;
+    top: 150px;
+    left: 12%;
+}
+
+.block h2 {
+    font-family: "Oswald", serif;
+    font-weight: bolder;
+    padding-left: 40px;
+    font-size: 32px;
+    color: #414f6b;
+}
+
+table {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 0px 35px;
+    padding-top: 2px;
+    padding-bottom: 15px;
+}
+
+table tr td {
+    padding: 5px;
+    font-family: "Lato", serif;
+    font-size: 16px;
+    color: #414242;
+}
+
+

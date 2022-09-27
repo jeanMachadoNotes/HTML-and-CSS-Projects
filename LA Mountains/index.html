@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Bebas+Neue|Lato"/>
+    <link rel="stylesheet" href="./css/index.css"/>
+    <link rel="stylesheet" href="./css/lightbox.css"/>
+    <link rel="stylesheet" href="./css/tabs.css"/>
+    <script src="./js/index.js"></script>
+    <script src="./js/tabs.js"></script>
+    <title>Los Angeles Mountains</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home"><img src="./assets/img/logo/Artboard 1.png" alt="company-logo" onclick="textLight()"/></a></li>
+                <li><a href="#Section2" class="right" onclick="textDark()">02. TEAM</a></li>
+                <li><a href="#Section1" class="right" onclick="textDark()">01. HISTORY</a></li>
+            </ul>
+        </div>
+    </div>
+
+<div class="page-container">
+    <div class="content-wrap">
+        <!--Hero Image -->
+        <div id="Home" class="container">
+        </div>
+
+        <!-- Section 01. History -->
+
+        <div id="Section1" class="container">
+            <div class="navbar-space"></div>
+            <div class="background-2">
+                <div class="text-box">
+                    <div class="text-heading">
+                        <p class="num">01.</p> 
+                        <p class="text1">History</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Eu augue ut lectus arcu bibendum. Fermentum leo vel orci porta non pulvinar neque. 
+                        Mauris sit amet massa vitae tortor condimentum lacinia. Sit amet mauris commodo quis imperdiet massa tincidunt. 
+                        Proin fermentum leo vel orci porta non pulvinar.
+                    </p>
+                </div>
+                <div class="row row-back">
+                    <div class="column">
+                        <img class="picture" src="./assets/img/hiker-highres.jpg" alt="hiker" class="hover-shadow" onclick="openModal();currentSlide(1)">
+                    </div>
+                    <div class="column">
+                        <img class="picture" src="./assets/img/mountain-highres.jpg" alt="mountain" class="hover-shadow" onclick="openModal();currentSlide(2)">
+                    </div>
+                    <div class="column">
+                        <img class="picture" src="./assets/img/hiker-highres.jpg" alt="hiker" class="hover-shadow" onclick="openModal();currentSlide(3)">
+                    </div>
+                    <div class="column">
+                        <img class="picture" src="./assets/img/mountain-highres.jpg" alt="mountain" class="hover-shadow" onclick="openModal();currentSlide(4)">
+                    </div>
+                </div>
+            </div>
+            <!-- Lightbox -->
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span> <!--Close Button-->
+                <div class="modal-content">
+
+                    <div class="mySlides">
+                        <div class="numbertext">1/4</div>
+                        <img class="picture" src="./assets/img/hiker-highres.jpg"> 
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">2/4</div>
+                        <img class="picture" src="./assets/img/mountain-highres.jpg"> 
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">3/4</div>
+                        <img class="picture" src="./assets/img/hiker-highres.jpg"> 
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">4/4</div>
+                        <img class="picture" src="./assets/img/mountain-highres.jpg"> 
+                    </div>
+
+                    <!-- Next/Prev Controls -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <!-- Caption text -->
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+                    <!-- Thumbnail Controls -->
+                    <div class="column2">
+                        <img class="demo" src="./assets/img/hiker-highres.jpg" onclick="currentSlide(1)" alt="Hiker">
+                    </div>
+                    <div class="column2">
+                        <img class="demo" src="./assets/img/mountain-highres.jpg" onclick="currentSlide(2)" alt="Mountain">
+                    </div>
+                    <div class="column2">
+                        <img class="demo" src="./assets/img/hiker-highres.jpg" onclick="currentSlide(3)" alt="Another Hiker">
+                    </div>
+                    <div class="column2">
+                        <img class="demo" src="./assets/img/mountain-highres.jpg" onclick="currentSlide(4)" alt="Another Mountain">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 02. Climb -->
+
+        <div id="Section2" class="container3">
+            <div class="section-header .clearfix">
+                <p class="num2">02. </p> 
+                <p class="text2">Climb</p>
+                <p class="text3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+            </div>
+            <div id="tabs" class="background-3_A">
+                <div class="tab-menu">
+                    <ul>
+                        <li class="active-item" onclick="openTab(1)">MOUNTAIN 1</li>
+                        <li onclick="openTab(2)">MOUNTAIN 2</li>
+                    </ul>
+                </div>
+                <div id="info-card" class="block">
+                    <h2>SCHEDULE</h2>
+                    <table>
+                        <tr>
+                            <td>25 Nov 2016</td>
+                            <td>Vestibulum viverra</td>
+                        </tr>
+                        <tr>
+                            <td>28 Nov 2016</td>
+                            <td>Vestibulum viverra</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>18 Dec 2016</td>
+                            <td>Vestibulum viverra</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>7 Jan 2017</td>
+                            <td>Vestibulum viverra</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--Footer -->
+    <div>
+        <div class="footer">
+            <ul>
+                <li><a href="#Home"><img src="./assets/img/logo/Artboard 1.png" alt="company-logo"  onclick="textLight()"/></a></li>
+                <li><a href="#Section2" class="footer-text">LOSANGELES <br> MOUNTAINS </a></li>
+                <li><a href="#Section2" class="right">COPYRIGHT 2016. ALL RIGHTS RESERVED.</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    
+</body>
+</html>
